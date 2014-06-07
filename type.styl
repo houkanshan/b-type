@@ -1,6 +1,6 @@
-@import 'variable'
 @import 'mixins'
 @import 'fontface'
+@import 'variable'
 
 // Could be placed under `body`
 type-base()
@@ -15,7 +15,7 @@ type-base()
     font-weight: $boldWeight
 
   code
-    font-family: $CodeFont
+    font-family: $PcCodeFont
     margin: 0 .23em
   for i in 1..7
     h{i}
@@ -42,7 +42,7 @@ type-article()
   line-height: 2.0
   font-family: $SansFont
   hyphens()
-  p, pre, ul, ol, blockquote
+  p, pre, ul, ol, blockquote, table
     margin-bottom: 1em
   for i in 1..7
     h{i}
@@ -99,3 +99,15 @@ type-article()
     font-size: 14px
     margin-top: 10px
     font-family: $ItalicFont
+
+  // table
+  table
+    margin-left: auto
+    margin-right: auto
+    min-width: 60%
+    td, th
+      padding: 0 0.3em
+    thead, th
+      font-weight: $boldWeight
+    thead
+      border-bottom: 1px solid #ddd

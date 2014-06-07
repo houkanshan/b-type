@@ -297,7 +297,7 @@ body b {
   font-weight: 700;
 }
 body code {
-  font-family: Consolas, "Liberation Mono", "BitStream Vera Sans Mono", CourierNewPS-BoldMT, "Courier New", Courier, monospace;
+  font-family: Consolas, "Liberation Mono", "BitStream Vera Sans Mono", Courier, monospace;
   margin: 0 0.23em;
 }
 body h1 {
@@ -388,7 +388,9 @@ article ul,
 article ol,
 .article ol,
 article blockquote,
-.article blockquote {
+.article blockquote,
+article table,
+.article table {
   margin-bottom: 1em;
 }
 article h1,
@@ -582,4 +584,26 @@ article figcaption,
   font-size: 14px;
   margin-top: 10px;
   font-family: 'LoraItalic', "Georgia Italic", "Georgia-Italic", STKaiti, "AR PL UKai", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, "TW-Kai";
+}
+article table,
+.article table {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 60%;
+}
+article table td,
+.article table td,
+article table th,
+.article table th {
+  padding: 0 0.3em;
+}
+article table thead,
+.article table thead,
+article table th,
+.article table th {
+  font-weight: 700;
+}
+article table thead,
+.article table thead {
+  border-bottom: 1px solid #ddd;
 }
