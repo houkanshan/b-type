@@ -1,0 +1,15 @@
+@import 'arkui/stylus/mixins'
+
+underline(lineHeight=18px, lineWeight=1px)
+  // From Medium
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 1px 0px 0 #fff, -1px 0px 0 #fff, 0px 1px 0 #fff, 0px -1px 0 #fff
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 75%)
+  background-repeat: repeat-x
+  background-size: (lineWeight*2) (lineWeight*2)
+  background-position: 0 lineHeight
+
+hyphens()
+  -webkit-hyphens: arguments
+  -moz-hyphens: arguments
+  -ms-hyphens: arguments
+  hyphens: arguments
