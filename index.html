@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  <link rel="stylesheet" href="./index.css">
+  <style>
+    article {
+      width: 700px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <article>
+
+    <h1 id="an-h1-header"><a href="#an-h1-header">An h1 header</a></h1>
+    <p>Paragraphs are separated by a blank line.</p>
+    <p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, <code>monospace</code>. Itemized lists look like:</p>
+    <ul>
+    <li>this one</li>
+    <li>that one</li>
+    <li>the other one</li>
+    </ul>
+    <p>Note that — not considering the asterisk — the actual text content starts at 4-columns in.</p>
+    <blockquote>
+    <p>Block quotes are written like so.</p>
+    <p>They can span multiple paragraphs, if you like.</p>
+    </blockquote>
+    <p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex. “it’s all in chapters 12–14”). Three dots … will be converted to an ellipsis.</p>
+    <h2 id="an-h2-header"><a href="#an-h2-header">An h2 header</a></h2>
+    <p>Here’s a numbered list:</p>
+    <ol style="list-style-type: decimal">
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+    </ol>
+    <p>Note again how the actual text starts at 4 columns in (4 characters from the left side). Here’s a code sample:</p>
+    <pre><code># Let me re-iterate ...
+    for i in 1 .. 10 { do-something(i) }</code></pre>
+    <p>As you probably guessed, indented 4 spaces. By the way, instead of indenting the block, you can use delimited blocks, if you like:</p>
+    <pre><code>define foobar() {
+        print "Welcome to flavor country!";
+    }</code></pre>
+    <p>(which makes copying &amp; pasting easier). You can optionally mark the delimited block for Pandoc to syntax highlight it:</p>
+    <pre class="sourceCode python"><code class="sourceCode python"><span class="ch">import</span> time
+    <span class="co"># Quick, count to ten!</span>
+    <span class="kw">for</span> i in <span class="dt">range</span>(<span class="dv">10</span>):
+        <span class="co"># (but not *too* quick)</span>
+        time.sleep(<span class="fl">0.5</span>)
+        <span class="kw">print</span> i</code></pre>
+    <h3 id="an-h3-header"><a href="#an-h3-header">An h3 header</a></h3>
+    <p>Now a nested list:</p>
+    <ol style="list-style-type: decimal">
+    <li><p>First, get these ingredients:</p>
+    <ul>
+    <li>carrots</li>
+    <li>celery</li>
+    <li>lentils</li>
+    </ul></li>
+    <li><p>Boil some water.</p></li>
+    <li><p>Dump everything in the pot and follow this algorithm:</p>
+    <pre><code>find wooden spoon
+    uncover pot
+    stir
+    cover pot
+    balance wooden spoon precariously on pot handle
+    wait 10 minutes
+    goto first step (or shut off burner when done)</code></pre>
+    <p>Do not bump wooden spoon or it will fall.</p></li>
+    </ol>
+    <p>Notice again how text always lines up on 4-space indents (including that last line which continues item 3 above). Here’s a link to <a href="http://foo.bar">a website</a>. Here’s a link to a <a href="local-doc.html">local doc</a>. Here’s a footnote <sup><a href="#fn1" class="footnoteRef" id="fnref1">1</a></sup>.</p>
+    <p>Tables can look like this:</p>
+    <table>
+    <caption>Shoes, their sizes, and what they’re made of</caption>
+    <thead>
+    <tr class="header">
+    <th align="left">size</th>
+    <th align="left">material</th>
+    <th align="left">color</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="left">9</td>
+    <td align="left">leather</td>
+    <td align="left">brown</td>
+    </tr>
+    <tr class="even">
+    <td align="left">10</td>
+    <td align="left">hemp canvas</td>
+    <td align="left">natural</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">11</td>
+    <td align="left">glass</td>
+    <td align="left">transparent</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>(The above is the caption for the table.) Here’s a definition list:</p>
+    <dl>
+    <dt>apples</dt>
+    <dd>Good for making applesauce.
+    </dd>
+    <dt>oranges</dt>
+    <dd>Citrus!
+    </dd>
+    <dt>tomatoes</dt>
+    <dd>There’s no “e” in tomatoe.
+    </dd>
+    </dl>
+    <p>Again, text is indented 4 spaces. (Alternately, put blank lines in between each of the above definition list lines to spread things out more.)</p>
+    <p>Inline math equations go in like so: <span class="math"><span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-1" style="width: 4.789em; display: inline-block;"><span style="display: inline-block; position: relative; width: 4.282em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(1.692em 1000.003em 2.931em -0.504em); top: -2.531em; left: 0.003em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: STIXGeneral-Italic;">ω</span><span class="mo" id="MathJax-Span-4" style="font-family: STIXGeneral-Regular; padding-left: 0.341em;">=</span><span class="mi" id="MathJax-Span-5" style="font-family: STIXGeneral-Italic; padding-left: 0.341em;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-6" style="font-family: STIXGeneral-Italic;">ϕ</span><span class="texatom" id="MathJax-Span-7"><span class="mrow" id="MathJax-Span-8"><span class="mo" id="MathJax-Span-9" style="font-family: STIXGeneral-Regular;">/</span></span></span><span class="mi" id="MathJax-Span-10" style="font-family: STIXGeneral-Italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-11" style="font-family: STIXGeneral-Italic;">t<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.537em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.128em; vertical-align: -0.309em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-1">\omega = d\phi / dt</script></span>. Display math should get its own line and be put in in double-dollarsigns:</p>
+    <p><span class="math"><span class="MathJax_Preview"></span><div class="MathJax_Display" role="textbox" aria-readonly="true" style="text-align: center;"><span class="MathJax" id="MathJax-Element-2-Frame"><nobr><span class="math" id="MathJax-Span-12" style="width: 6.478em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.802em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(2.03em 1000.003em 4.676em -0.504em); top: -3.601em; left: 0.003em;"><span class="mrow" id="MathJax-Span-13"><span class="mi" id="MathJax-Span-14" style="font-family: STIXGeneral-Italic;">I<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.059em;"></span></span><span class="mo" id="MathJax-Span-15" style="font-family: STIXGeneral-Regular; padding-left: 0.341em;">=</span><span class="mo" id="MathJax-Span-16" style="font-family: STIXIntegralsD; vertical-align: -0.617em; padding-left: 0.341em;">∫<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.453em;"></span></span><span class="mi" id="MathJax-Span-17" style="font-family: STIXGeneral-Italic; padding-left: 0.172em;">ρ</span><span class="msubsup" id="MathJax-Span-18"><span style="display: inline-block; position: relative; width: 1.073em; height: 0px;"><span style="position: absolute; clip: rect(1.692em 1000.003em 2.706em -0.504em); top: -2.531em; left: 0.003em;"><span class="mi" id="MathJax-Span-19" style="font-family: STIXGeneral-Italic;">R</span><span style="display: inline-block; width: 0px; height: 2.537em;"></span></span><span style="position: absolute; top: -2.531em; left: 0.622em;"><span class="texatom" id="MathJax-Span-20"><span class="mrow" id="MathJax-Span-21"><span class="mn" id="MathJax-Span-22" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span></span></span><span style="display: inline-block; width: 0px; height: 2.142em;"></span></span></span></span><span class="mi" id="MathJax-Span-23" style="font-family: STIXGeneral-Italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-24" style="font-family: STIXGeneral-Italic;">V<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.059em;"></span></span></span><span style="display: inline-block; width: 0px; height: 3.606em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 2.628em; vertical-align: -1.059em;"></span></span></nobr></span></div><script type="math/tex; mode=display" id="MathJax-Element-2">I = \int \rho R^{2} dV</script></span></p>
+    <p>Done.</p>
+    <hr>
+    <p>Pandoc also allows you to do a few more things, for example, use multi-line table rows. You can read more about that in the <a href="http://johnmacfarlane.net/pandoc/README.html">Pandoc Manual</a>.</p>
+
+    <div class="footnotes">
+    <hr>
+    <ol>
+    <li id="fn1"><p>Footnote text goes here.<a href="#fnref1">↩</a></p></li>
+    </ol>
+    </div>
+
+  </article>
+
+</body>
+</html>
