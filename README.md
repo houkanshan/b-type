@@ -1,7 +1,7 @@
 B-type
 ======
 
-A medium like CSS typography project, with optimisation for CJK language.
+A medium like CSS typography setting, with optimisation for CJK language.
 
 ###Demo
 
