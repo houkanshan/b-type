@@ -293,7 +293,8 @@ body figcaption {
   font-family: 'LoraItalic', "Georgia Italic", "Georgia-Italic", STKaiti, "AR PL UKai", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, "TW-Kai";
 }
 body strong,
-body b {
+body b,
+body dt {
   font-weight: 700;
 }
 body code {
