@@ -364,11 +364,11 @@ body a {
 article,
 .article {
   line-height: 2;
-  font-family: 'Lora', Georgia, Cambria, "Times New Roman", Times, serif;
-  -webkit-hyphens: ;
-  -moz-hyphens: ;
-  -ms-hyphens: ;
-  hyphens: ;
+  font-family: 'arkpunctuation', 'Lora', Georgia, Cambria, "Times New Roman", Times, serif;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 article p,
 .article p,
@@ -564,7 +564,9 @@ article pre,
   overflow-x: auto;
 }
 article img,
-.article img {
+.article img,
+article iframe,
+.article iframe {
   display: block;
   max-width: 100%;
   margin: 0 auto;
