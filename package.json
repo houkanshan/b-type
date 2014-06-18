@@ -1,6 +1,6 @@
 {
   "name": "b-type",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stylus library for web page typography.",
   "main": "index.styl",
   "scripts": {
