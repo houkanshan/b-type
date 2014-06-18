@@ -545,8 +545,8 @@ article ul,
 .article ul,
 article ol,
 .article ol {
-  list-style-position: inside;
-  margin-left: 1em;
+  list-style-position: outside;
+  margin-left: 2em;
 }
 article blockquote,
 .article blockquote {
