@@ -13,6 +13,9 @@
     "tests"
   ],
   "dependencies": {
-    "arkui": "https://github.com/mockee/arkui.git#~1.0.3"
+    "arkui": "https://github.com/mockee/arkui.git#~1.0.3",
+    "mojikumi": "~0.0.1"
+  },
+  "devDependencies": {
   }
 }

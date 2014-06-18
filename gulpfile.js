@@ -1,6 +1,12 @@
 var gulp = require('gulp')
 var gutil = require('gulp-util')
 
+
+gulp.task('fonts', function () {
+  gulp.src(['./bower_components/mojikumi/fonts/*'])
+    .pipe(gulp.dest('./fonts/'))
+})
+
 var stylus = require('gulp-stylus')
 gulp.task('stylus', function () {
   gulp.src(['index.styl'])
@@ -18,4 +24,4 @@ gulp.task('watch', function() {
 
 
 gulp.task('css', ['stylus'])
-gulp.task('default', ['css'])
+gulp.task('default', ['fonts', 'css'])
