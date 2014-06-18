@@ -269,7 +269,7 @@ table {
   background-color: #e6e6dd;
 }
 body {
-  font: 18px/1.5 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font: 18px/1.5 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
   color: rgba(0,0,0,0.8);
   text-rendering: optimizeLegibility;
@@ -292,49 +292,49 @@ body code {
   margin: 0 0.23em;
 }
 body h1 {
-  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
 }
 body h1 a {
   text-decoration: none;
 }
 body h2 {
-  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
 }
 body h2 a {
   text-decoration: none;
 }
 body h3 {
-  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
 }
 body h3 a {
   text-decoration: none;
 }
 body h4 {
-  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
 }
 body h4 a {
   text-decoration: none;
 }
 body h5 {
-  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
 }
 body h5 a {
   text-decoration: none;
 }
 body h6 {
-  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
 }
 body h6 a {
   text-decoration: none;
 }
 body h7 {
-  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: 'arkpunctuation', "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   font-weight: 200;
 }
 body h7 a {
@@ -364,7 +364,7 @@ body a {
 article,
 .article {
   line-height: 2;
-  font-family: 'arkpunctuation', 'Lora', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'arkpunctuation', 'Lora', Georgia, Cambria, "Times New Roman", Times, serif, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -465,7 +465,7 @@ article h1,
 }
 article h1 a,
 .article h1 a {
-  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
 article h2,
 .article h2 {
@@ -473,7 +473,7 @@ article h2,
 }
 article h2 a,
 .article h2 a {
-  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
 article h3,
 .article h3 {
@@ -481,7 +481,7 @@ article h3,
 }
 article h3 a,
 .article h3 a {
-  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
 article h4,
 .article h4 {
@@ -489,7 +489,7 @@ article h4,
 }
 article h4 a,
 .article h4 a {
-  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
 article h5,
 .article h5 {
@@ -497,7 +497,7 @@ article h5,
 }
 article h5 a,
 .article h5 a {
-  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
 article h6,
 .article h6 {
@@ -505,7 +505,7 @@ article h6,
 }
 article h6 a,
 .article h6 a {
-  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
 article h7,
 .article h7 {
@@ -513,7 +513,7 @@ article h7,
 }
 article h7 a,
 .article h7 a {
-  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", "Luxi Sans", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", LiGothicMed;
 }
 article h1,
 .article h1 {

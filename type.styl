@@ -5,7 +5,7 @@
 // Could be placed under `body`
 type-base()
   // Font
-  font: 18px/1.5 'arkpunctuation', $SerifSansFont
+  font: 18px/1.5 'arkpunctuation', $SansSerifFont
   font-weight: $thinWeight
 
   blockquote
@@ -19,7 +19,7 @@ type-base()
     margin: 0 .23em
   for i in 1..7
     h{i}
-      font-family: 'arkpunctuation', $SerifSansFont
+      font-family: 'arkpunctuation', $SansSerifFont
       font-weight: $thinWeight
       a
         text-decoration: none
@@ -40,7 +40,7 @@ type-base()
 // Could be placed under `article`
 type-article()
   line-height: 2.0
-  font-family: 'arkpunctuation', $SansFont
+  font-family: 'arkpunctuation', $SerifFont
   hyphens(auto)
   p, pre, ul, ol, blockquote, table
     margin-bottom: 1em
@@ -68,7 +68,7 @@ type-article()
     h{i}
       font-weight: $bolderWeight
       a
-        font-family: $SerifSansFont
+        font-family: $SansSerifFont
   h1
     font-size: 24px
     a
